@@ -1,11 +1,10 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Global Styles */
+ 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -32,7 +31,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header */
 header {
     text-align: center;
     padding-bottom: 10px;
@@ -41,7 +39,7 @@ header {
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 32px;
 }
 
 nav a {
@@ -50,7 +48,6 @@ nav a {
     color: #2c3e50;
 }
 
-/* Section Styles */
 section {
     background: white;
     padding: 20px;
@@ -66,10 +63,17 @@ section h2 {
     font-size: 1.5em;
 }
 
-img {
-    border-radius: 50%;
+
+.foto-perfil {
+    border-radius: 50%; 
     margin: 10px 0;
 }
+
+.captura-proyecto {
+    border-radius: 0; 
+    margin: 10px 0;
+}
+
 
 footer {
     text-align: center;
@@ -78,6 +82,11 @@ footer {
     color: white;
     border-radius: 8px;
 }
+
+footer h2 {
+    color: white;
+}
+
 
 footer a {
     color: white;
